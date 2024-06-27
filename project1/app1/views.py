@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("<h1>welcome t0 home 2</h1>")
+
+def reg(request):
+    return render(request,'reg.html')

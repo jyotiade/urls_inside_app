@@ -4,5 +4,6 @@ from app import views
 
 urlpatterns = [
     path('app/',views.home),
+    path('register/',views.register),
     
 ]
