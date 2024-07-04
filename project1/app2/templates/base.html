@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        #nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 124, 93);
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: black;
+    margin-top: 80px;
+    font-size: 20px;
+     margin: 50px;
+     margin-right: 60px;
+}
+
+#nav li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    margin-left:-50px;
+}
+
+#div10 {
+    display: flex;
+    justify-content: center;
+}
+
+#div10 div {
+    margin: 40px;
+}
+
+#f1 div {
+    /* margin-left: -60px; */
+    font-size: 30px;
+    /* padding-left: -900px; */
+  
+}
+
+#f1 p {
+    /* margin-left: -100px; */
+    padding-left: -900px;
+   
+}
+
+#div10 div ul {
+    margin-top: 100px;
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: 19px;
+}
+
+#div11 {
+    margin-left: 50px;
+}
+
+#sec1 {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-color: rgb(207, 200, 200);
+    padding-bottom: 100px;
+}
+
+#div11 input {
+    width: 300px;
+    height: 30px;
+    margin-left: 260px;
+}
+
+
+     </style>
+</head>
+<body>
+    <ul id="nav">
+        
+        <li><a href="./navbar.html">Home</a></li>
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="service.html">Serices</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+    </ul>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <section id="sec1">
+   
+
+    <div id="div10">
+
+        <div id="f1">
+            <div>Furni.</div>
+            <p>Donec facilisis quam ut purus rutrum lobortis. <br>
+                Donec vitae odio quis nisl dapibus malesuada.  <br>
+                Nullam ac aliquet velit. Aliquam vulputate velit <br>
+                imperdiet dolor tempor tristique.Pellentesque
+                habitant</p>
+        </div>
+
+        <div>
+            <ul>
+                <li>About us</li>
+                <li>Services</li>
+                <li>Blog</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>Support</li>
+                <li>Knowledge base</li>
+                <li>Live chat</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>Jobs</li>
+                <li>Our team</li>
+                <li>Leadership</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>Support</li>
+                <li>Knowledge base</li>
+                <li>Live chat</li>
+            </ul>
+        </div>
+   <!-- <div>
+    <div><img src="" alt=""></div>
+    <div><i class="fi fi-brands-instagram"></i></div>
+    <div><i class="fi fi-brands-twitter"></i></div>
+    <div><i class="fi fi-brands-linkedin"></i></div>
+   </div> -->
+
+    </div>
+</section>
+</body>
+</html>

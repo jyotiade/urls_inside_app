@@ -8,5 +8,6 @@ urlpatterns = [
     path('register/',views.register),
     path('new/',views.new,name='new'),
     path('registerdata/',views.registerdata,name='new'),
+    # path('',views.homes,name='homes')
    
 ]

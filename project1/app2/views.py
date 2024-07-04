@@ -10,3 +10,6 @@ def home(request):
     # return JsonResponse(data)
 def form(request):
     return render(request,'form.html')
+
+def homes(request):
+    return render(request,'home.html')

@@ -27,3 +27,6 @@ def registerdata(request):
 
     Student.objects.create(Name=name,Email=email,Contact=contact,Password=password)
     print("data save succesfully")
+
+# def homes(request):
+#     return render(request,'home.html')

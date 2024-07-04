@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #landpage {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 124, 93);
+    border-top: 1px solid rgb(59, 124, 93);
+    /* padding-bottom: 200px; */
+   margin-top: -1000px;
+   padding-bottom: 100px;
+
+}
+
+#landpagediv1 {
+    margin-right: 20px;
+    margin-top: 600px;
+    color: azure;
+    margin-left: -50px;
+    padding-top: 600px;
+}
+
+#landpage img {
+    width: 600px;
+ 
+}
+
+#d1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+#d2{
+    margin-top: -400px;
+}
+#d2 img{
+    margin-left: 700px;
+    
+   
+}
+#p1 {
+    font-size: 20px;
+}
+
+
+
+#landpage a {
+    color: white;
+}
+    </style>
+</head>
+<body>
+    
+    {% block content %}
+    
+    <div id="landpage">
+        <div id="landpagediv1">
+            <div id="d1">Modern Interior <br>Design Studio</div>
+            <p id="p1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet <br>velit. Aliquam vulputate
+                velit imperdiet dolor tempor tristique.</p>
+            <br><br><br>
+            <button id="down"><b>Shop Now</b></button> &nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="up"><b>Explore</b></button> <br><br><br><br>
+
+            <div id="d2">
+                <div><img src="https://themewagon.github.io/furni/images/couch.png" alt=""></div>
+            </div>
+
+        </div>
+    </div>
+
+    {% endblock %}
+</body>
+</html>
